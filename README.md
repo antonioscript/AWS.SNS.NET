@@ -48,9 +48,34 @@ https://temp-mail.org/pt/
 
 
 ## LambdaSubscriber
+**Create a Projetc Lambda and deploy to AWS**
+
+</br>
+
 ![image](https://github.com/user-attachments/assets/5ef4b52c-e810-4342-b31d-7f0563375fe1)
 
+------------
 
+![image](https://github.com/user-attachments/assets/38373822-b165-4d5a-820c-d8cad79f665f)
+
+### Create a Trigger
+![image](https://github.com/user-attachments/assets/dcd4c427-f04f-4db3-81c8-a3e60a118e26)
+
+----
+![image](https://github.com/user-attachments/assets/f26cc20e-e7fa-4e3a-859a-aeba51b36bb3)
+
+-----
+Go back to SNS and refresh the Subscriptions
+
+</br>
+
+![image](https://github.com/user-attachments/assets/2d4d48fc-c6fd-4b58-a3de-668ba54635fe)
+
+----
+
+_> This means that if our ASP.NET Core Publisher endpoint is hit again, a new email will be sent, and also the Lambda will be invoked. Go to the Log Group of the Lambda function and you will see that it has received this information_
+
+-----
 
 
 
